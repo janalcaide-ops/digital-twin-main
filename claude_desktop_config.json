@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "digital-twin": {
+      "command": "npx",
+      "args": ["ts-node", "lib/mcp-server-cli.ts"],
+      "env": {
+        "GROQ_API_KEY": "your_groq_api_key_here"
+      }
+    }
+  }
+}

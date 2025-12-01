@@ -1,0 +1,27 @@
+{
+  "servers": {
+    "digital-twin-mcp": {
+      "type": "http",
+      "url": "http://localhost:3000/api/mcp",
+      "timeout": 30000,
+      "description": "Digital Twin RAG MCP Server for interview preparation"
+    }
+  },
+  "mcpServers": {
+    "digital-twin-cli": {
+      "command": "node",
+      "args": ["${workspaceFolder}/lib/mcp-server-cli.ts"],
+      "env": {
+        "GROQ_API_KEY": "${env:GROQ_API_KEY}",
+        "UPSTASH_VECTOR_REST_URL": "${env:UPSTASH_VECTOR_REST_URL}",
+        "UPSTASH_VECTOR_REST_TOKEN": "${env:UPSTASH_VECTOR_REST_TOKEN}",
+        "NODE_ENV": "development"
+      },
+      "disabled": false,
+      "autoStart": false
+    }
+  },
+  "alwaysAllow": ["digital-twin-mcp", "digital-twin-cli"],
+  "alwaysDeny": [],
+  "debugLogging": true
+}

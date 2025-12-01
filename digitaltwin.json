@@ -1,0 +1,235 @@
+{
+  "content_chunks": [
+    {
+      "id": "chunk-personal-001",
+      "title": "Personal Information",
+      "type": "personal",
+      "content": "My name is Jhon Danver C. Abogado. I am a Certified HTML and CSS Developer from Cagayan, Philippines. I am a student who enjoys designing websites and learning new things. You can reach me at jhonabogado@spup.edu.ph or connect with me on LinkedIn at https://www.linkedin.com/in/jhon-danver-abogado-abb196396/ or GitHub at https://github.com/jedeee-ei",
+      "metadata": {"category": "personal", "tags": ["contact", "profile"]}
+    },
+    {
+      "id": "chunk-skills-web-001",
+      "title": "Web Design Skills",
+      "type": "skills",
+      "content": "I have Advanced proficiency in web design with expertise in UI/UX Design, Responsive Web Design, Web Layout, Color Theory, and Typography. I am passionate about designing creative and responsive websites. I have 2 years of experience with HTML and CSS where I am an Expert. I am certified as both an HTML and CSS Developer.",
+      "metadata": {"category": "technical", "tags": ["web-design", "html", "css", "ui-ux"]}
+    },
+    {
+      "id": "chunk-skills-design-001",
+      "title": "Graphic Design & Creativity",
+      "type": "skills",
+      "content": "I have Advanced proficiency in graphic design with specialization in Poster Design, Branding, Visual Communication, and Layout Design. I create creative posters and visual content. I use design tools including Figma, Adobe Photoshop, Adobe Illustrator, and Canva.",
+      "metadata": {"category": "technical", "tags": ["design", "graphics", "branding"]}
+    },
+    {
+      "id": "chunk-skills-video-001",
+      "title": "Video Editing Skills",
+      "type": "skills",
+      "content": "I have beginner-level experience in video editing. I am comfortable with Basic Video Editing, Transitions, and Color Grading. I have worked with tools like Adobe Premiere Pro, DaVinci Resolve, and CapCut. I am continuously improving my video editing skills through practice.",
+      "metadata": {"category": "technical", "tags": ["video", "editing"]}
+    },
+    {
+      "id": "chunk-education-001",
+      "title": "Education",
+      "type": "education",
+      "content": "I am studying at Saint Paul University Philippines Tugegarao City, pursuing a Bachelor of Science in Information Technology. My relevant coursework includes Web Design, HTML & CSS, Graphic Design, UI/UX Design, Digital Media, Video Editing, Creative Design Fundamentals, and Web Development. I hold certifications as a Certified HTML Developer and Certified CSS Developer. My focus areas are Web Design, Graphic Design, and Creative Development.",
+      "metadata": {"category": "education", "tags": ["university", "certifications", "coursework"]}
+    },
+    {
+      "id": "chunk-projects-001",
+      "title": "Student Management System Project",
+      "type": "projects",
+      "content": "I developed a Student-Management-System, a comprehensive system for managing student records, enrollment, grades, and academic information. This project streamlined student record management for educational institutions. I used HTML, CSS, and Database Management technologies.",
+      "metadata": {"category": "projects", "tags": ["project", "system-development"]}
+    },
+    {
+      "id": "chunk-projects-002",
+      "title": "Scholarship Monitoring System with Data Analytics",
+      "type": "projects",
+      "content": "I built a Scholarship Monitoring System with Data Analytics for end-to-end tracking of scholarship disbursements, student progress, and analytical insights using data visualization. This system provides data-driven insights for scholarship program management and decision-making. Key features include real-time monitoring, analytics dashboard, reporting tools, and student tracking. Technologies used: HTML, CSS, Database, Data Analytics, and Reporting.",
+      "metadata": {"category": "projects", "tags": ["project", "analytics", "data"]}
+    },
+    {
+      "id": "chunk-projects-003",
+      "title": "AI-Powered Digital Twin Workshop Platform",
+      "type": "projects",
+      "content": "I am working on an AI-Powered Digital Twin Workshop Platform, an end-to-end RAG system for interview preparation and professional development. This platform helps professionals improve interview performance and career readiness. Technologies include Python, Upstash Vector, Groq API, and Next.js.",
+      "metadata": {"category": "projects", "tags": ["project", "ai", "rag"]}
+    },
+    {
+      "id": "chunk-career-001",
+      "title": "Career Goals and Learning",
+      "type": "career",
+      "content": "My short-term goal is to strengthen my skills in web design, focusing on building clean, responsive, and user-friendly interfaces using HTML and CSS. Long-term, I aspire to become a lead UI/UX designer or front-end specialist in a creative and innovative company. I am focused on learning modern web layout techniques, design systems, accessibility, and improving my visual design skills. I am interested in industries like web development, digital design, and creative media. My recent learning includes responsive layout design, CSS frameworks, poster layout techniques, and basic video editing workflows.",
+      "metadata": {"category": "career", "tags": ["goals", "learning", "professional"]}
+    },
+    {
+      "id": "chunk-interview-001",
+      "title": "Interview Preparation - Technical Skills",
+      "type": "interview",
+      "content": "My technical expertise includes web design with HTML and CSS, database design, and data analytics. I understand how to structure relational data, create efficient queries, ensure data integrity, normalize databases, and optimize performance for reporting and analytics. I can design clear visualizations, implement responsive UI for different devices, and test with actual users for usability.",
+      "metadata": {"category": "interview", "tags": ["technical", "interview-prep"]}
+    },
+    {
+      "id": "chunk-interview-002",
+      "title": "Interview Preparation - Problem Solving",
+      "type": "interview",
+      "content": "When facing technical problems, I take a systematic approach: I immediately assess impact and severity, reproduce the issue in a safe environment, trace the code to find the root cause, implement a quick fix or workaround, test thoroughly, deploy the fix, monitor for recurring issues, and document the solution. I also use iterative development with regular stakeholder check-ins and break down requirements into smaller deliverables prioritized by business value.",
+      "metadata": {"category": "interview", "tags": ["problem-solving", "interview-prep"]}
+    },
+    {
+      "id": "chunk-strengths-001",
+      "title": "Key Strengths and Attributes",
+      "type": "strengths",
+      "content": "My key strengths include strong web design and HTML/CSS expertise with certifications, creative problem-solving in building complex systems, database design and data analytics understanding, quick learning ability to pick up new technologies as needed, and passion for user experience and interface design. I have practical experience designing databases, creating efficient queries, and building data analytics solutions that help organizations make data-driven decisions.",
+      "metadata": {"category": "strengths", "tags": ["strengths", "attributes"]}
+    }
+  ],
+  "personal": {
+    "name": "Jhon Danver C. Abogado",
+    "title": "Certified HTML and CSS Developer",
+    "location": "Cagayan, Philippines",
+    "summary": "Just a student who enjoys designing websites and learning new things.",
+    "elevator_pitch": "Brief 30-second introduction highlighting your unique value proposition",
+    "contact": {
+      "email": "jhonabogado@spup.edu.ph",
+      "linkedin": "https://www.linkedin.com/in/jhon-danver-abogado-abb196396/",
+      "github": "https://github.com/jedeee-ei"
+    }
+  },
+  "skills": {
+    "technical": {
+      "programming_languages": [
+        {"language": "HTML", "years": 2, "proficiency": "Expert", "frameworks": ["Certified HTML Developer"]},
+        {"language": "CSS", "years": 2, "proficiency": "Expert", "frameworks": ["Certified CSS Developer"]}
+      ],
+      "design_tools": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Canva"],
+      "web_design": {
+        "proficiency": "Advanced",
+        "experience": "Passionate about designing creative and responsive websites",
+        "specialties": ["UI/UX Design", "Responsive Web Design", "Web Layout", "Color Theory", "Typography"]
+      },
+      "graphic_design": {
+        "proficiency": "Advanced",
+        "experience": "Creating creative posters and visual content",
+        "specialties": ["Poster Design", "Branding", "Visual Communication", "Layout Design"]
+      },
+      "video_editing": {
+        "proficiency": "Beginner",
+        "experience": "Short experience in video editing",
+        "tools": ["Adobe Premiere Pro", "DaVinci Resolve", "CapCut"],
+        "specialties": ["Basic Video Editing", "Transitions", "Color Grading"]
+      }
+    },
+    "soft_skills": ["Creativity", "Attention to Detail", "Visual Communication", "Problem-solving", "Collaborative Design"],
+    "certifications": ["Certified HTML Developer", "Certified CSS Developer"]
+  },
+  "education": {
+    "university": "Saint Paul University Philippines Tugegarao City",
+    "degree": "Bachelor of Science in Information Technology",
+    "relevant_coursework": ["Web Design", "HTML & CSS", "Graphic Design", "UI/UX Design", "Digital Media", "Video Editing", "Creative Design Fundamentals", "Web Development"],
+    "certifications": ["Certified HTML Developer", "Certified CSS Developer"],
+    "focus_areas": ["Web Design", "Graphic Design", "Creative Development"]
+  },
+  "projects_portfolio": [
+    {
+      "name": "Student-Management-System",
+      "description": "Comprehensive system for managing student records, enrollment, grades, and academic information",
+      "technologies": ["HTML", "CSS", "Database Management"],
+      "impact": "Streamlined student record management for educational institutions",
+      "github_url": "https://github.com/jedeee-ei/student-management-system"
+    },
+    {
+      "name": "Scholarship Monitoring System with Data Analytics",
+      "description": "End-to-end system for tracking scholarship disbursements, student progress, and analytical insights using data visualization",
+      "technologies": ["HTML", "CSS", "Database", "Data Analytics", "Reporting"],
+      "impact": "Provides data-driven insights for scholarship program management and decision-making",
+      "features": ["Real-time monitoring", "Analytics dashboard", "Reporting tools", "Student tracking"]
+    },
+    {
+      "name": "AI-Powered Digital Twin Workshop Platform",
+      "description": "End-to-end RAG system for interview preparation and professional development",
+      "technologies": ["Python", "Upstash Vector", "Groq API", "Next.js"],
+      "impact": "Helped professionals improve interview performance and career readiness",
+      "github_url": "https://github.com/username/digital-twin",
+      "live_demo": "https://mydigitaltwin.vercel.app"
+    }
+  ],
+  "interview_prep": {
+    "common_questions": {
+      "behavioral": [
+        {
+          "question": "Tell me about a time you had to lead a difficult technical decision",
+          "answer": "When developing the Scholarship Monitoring System, I had to decide between building a custom solution or using an existing framework. I chose to build custom HTML/CSS interfaces to ensure full control over the design and user experience. This decision allowed us to create a more intuitive dashboard for data analytics, improving adoption among stakeholders."
+        },
+        {
+          "question": "Describe a project where you had to learn a new technology quickly",
+          "answer": "With the Scholarship Monitoring System project, I needed to quickly learn data analytics and reporting tools to implement the analytics features. I learned through online resources, documentation, and practical implementation, successfully delivering a working analytics dashboard within the project timeline."
+        },
+        {
+          "question": "How do you handle conflicting priorities and tight deadlines?",
+          "answer": "I prioritize based on impact and urgency. For the Student-Management-System and Scholarship Monitoring System, I broke down features into manageable sprints, focused on core functionality first, and used agile principles to adapt as requirements changed. Clear communication with stakeholders helped manage expectations."
+        }
+      ],
+      "technical": [
+        {
+          "question": "Explain your web design and development process",
+          "answer": "I start with understanding user requirements and creating wireframes. Then I build semantic HTML for structure, implement responsive CSS for various screen sizes, and ensure accessibility. For the Student-Management-System, I focused on intuitive navigation and data presentation. I test across browsers and optimize for performance."
+        },
+        {
+          "question": "How would you approach building a data analytics dashboard?",
+          "answer": "Based on my Scholarship Monitoring System experience, I would: (1) Identify key metrics to track, (2) Design clear visualizations, (3) Structure the database for efficient queries, (4) Create responsive UI for different devices, (5) Implement real-time updates where needed, and (6) Test with actual users for usability."
+        },
+        {
+          "question": "Describe your experience with databases and data management",
+          "answer": "I have practical experience designing databases for both Student-Management-System and Scholarship Monitoring System. I understand how to structure relational data, create efficient queries, and ensure data integrity. I'm familiar with normalizing databases and optimizing performance for reporting and analytics."
+        }
+      ],
+      "situational": [
+        {
+          "question": "A critical bug is affecting the Student-Management-System. Walk me through your response",
+          "answer": "I would: (1) Immediately assess the impact and severity, (2) Reproduce the issue in a safe environment, (3) Trace the code to find the root cause, (4) Implement a quick fix or workaround, (5) Test thoroughly, (6) Deploy the fix, (7) Monitor for recurring issues, and (8) Document the solution for future reference."
+        },
+        {
+          "question": "How would you approach a project where requirements keep changing?",
+          "answer": "I would use iterative development with regular stakeholder check-ins. I'd break down requirements into smaller deliverables, prioritize based on business value, and maintain clear documentation. For the Scholarship Monitoring System, changing requirements led me to build flexible features that could adapt without major rewrites."
+        },
+        {
+          "question": "Describe how you would evaluate and implement a new design tool or technology",
+          "answer": "I would: (1) Research the tool thoroughly and compare alternatives, (2) Consider the learning curve and team capability, (3) Prototype with a small project, (4) Measure efficiency gains, (5) Create documentation and training, and (6) Plan rollout strategy. For design tools like Figma, I would pilot it on small projects first."
+        }
+      ],
+      "company_research": {
+        "research_areas": ["Company mission and values", "Recent product launches", "Engineering culture", "Technical challenges", "Design philosophy"],
+        "preparation_questions": [
+          "What excites you about our product?",
+          "Why do you want to work here?",
+          "What questions do you have for us?",
+          "How does your design philosophy align with ours?",
+          "What technical challenges are you currently facing?"
+        ]
+      }
+    },
+    "weakness_mitigation": [
+      {
+        "weakness": "Limited backend/server-side development experience",
+        "mitigation": "While my primary focus has been frontend and database design, I'm actively learning backend technologies. Currently exploring Python and APIs to expand my full-stack capabilities."
+      },
+      {
+        "weakness": "Early career stage with primarily student projects",
+        "mitigation": "I'm passionate about continuous learning and have already built 2 significant systems (Student-Management-System and Scholarship Monitoring System). I'm eager to contribute to professional projects and grow alongside experienced mentors."
+      },
+      {
+        "weakness": "Limited video editing experience",
+        "mitigation": "While I have beginner-level video editing skills, I'm continuously improving through practice and online courses. I'm comfortable with basic editing tasks and willing to learn more advanced techniques as needed."
+      }
+    ],
+    "strengths_to_emphasize": [
+      "Strong web design and HTML/CSS expertise with certifications",
+      "Creative problem-solving in building Student-Management-System and Scholarship Monitoring System",
+      "Database design and data analytics understanding",
+      "Quick learner - able to pick up new technologies as needed",
+      "Passionate about user experience and interface design"
+    ]
+  }
+}

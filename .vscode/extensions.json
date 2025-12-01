@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-next",
+    "biomejs.biome",
+    "eamodio.gitlens",
+    "github.copilot",
+    "github.copilot-chat",
+    "ms-vscode.makefile-tools",
+    "bradlc.vscode-tailwindcss",
+    "unifiedjs.vscode-mdx",
+    "prisma.prisma"
+  ]
+}
