@@ -4,132 +4,196 @@
       "id": "chunk-personal-001",
       "title": "Personal Information",
       "type": "personal",
-      "content": "My name is Jhon Danver C. Abogado. I am a Certified HTML and CSS Developer from Cagayan, Philippines. I am a student who enjoys designing websites and learning new things. You can reach me at jhonabogado@spup.edu.ph or connect with me on LinkedIn at https://www.linkedin.com/in/jhon-danver-abogado-abb196396/ or GitHub at https://github.com/jedeee-ei",
-      "metadata": {"category": "personal", "tags": ["contact", "profile"]}
+      "content": "My name is Jan Cornelius Miguel Alcaide. I am a Certified MCF AI-900 from Cagayan, Philippines. I am a student pursuing a Bachelor of Science in Artificial Intelligence who enjoys building machine learning models and AI-driven applications. You can reach me at janalcaide@spup.edu.ph or connect with me on LinkedIn at https://www.linkedin.com/in/jhon-danver-abogado-abb196396/ or GitHub at https://github.com/janalcaide-ops",
+      "metadata": {
+        "category": "personal",
+        "tags": ["contact", "profile", "ai"]
+      }
     },
     {
-      "id": "chunk-skills-web-001",
-      "title": "Web Design Skills",
+      "id": "chunk-skills-ai-001",
+      "title": "AI & Machine Learning Skills",
       "type": "skills",
-      "content": "I have Advanced proficiency in web design with expertise in UI/UX Design, Responsive Web Design, Web Layout, Color Theory, and Typography. I am passionate about designing creative and responsive websites. I have 2 years of experience with HTML and CSS where I am an Expert. I am certified as both an HTML and CSS Developer.",
-      "metadata": {"category": "technical", "tags": ["web-design", "html", "css", "ui-ux"]}
+      "content": "I have hands-on experience building machine learning models, data preprocessing pipelines, and prototype deployments. My AI work focuses on supervised and unsupervised learning, deep learning (CNNs, RNNs/transformers), natural language processing, and computer vision. I primarily use Python, PyTorch, TensorFlow, scikit-learn, and Pandas.",
+      "metadata": {
+        "category": "technical",
+        "tags": ["ai", "machine-learning", "python", "pytorch"]
+      }
     },
     {
       "id": "chunk-skills-design-001",
       "title": "Graphic Design & Creativity",
       "type": "skills",
       "content": "I have Advanced proficiency in graphic design with specialization in Poster Design, Branding, Visual Communication, and Layout Design. I create creative posters and visual content. I use design tools including Figma, Adobe Photoshop, Adobe Illustrator, and Canva.",
-      "metadata": {"category": "technical", "tags": ["design", "graphics", "branding"]}
+      "metadata": {
+        "category": "technical",
+        "tags": ["design", "graphics", "branding"]
+      }
     },
     {
       "id": "chunk-skills-video-001",
       "title": "Video Editing Skills",
       "type": "skills",
       "content": "I have beginner-level experience in video editing. I am comfortable with Basic Video Editing, Transitions, and Color Grading. I have worked with tools like Adobe Premiere Pro, DaVinci Resolve, and CapCut. I am continuously improving my video editing skills through practice.",
-      "metadata": {"category": "technical", "tags": ["video", "editing"]}
+      "metadata": { "category": "technical", "tags": ["video", "editing"] }
     },
     {
       "id": "chunk-education-001",
       "title": "Education",
       "type": "education",
-      "content": "I am studying at Saint Paul University Philippines Tugegarao City, pursuing a Bachelor of Science in Information Technology. My relevant coursework includes Web Design, HTML & CSS, Graphic Design, UI/UX Design, Digital Media, Video Editing, Creative Design Fundamentals, and Web Development. I hold certifications as a Certified HTML Developer and Certified CSS Developer. My focus areas are Web Design, Graphic Design, and Creative Development.",
-      "metadata": {"category": "education", "tags": ["university", "certifications", "coursework"]}
+      "content": "I am studying at Saint Paul University Philippines Tugegarao City, pursuing a Bachelor of Science in Artificial Intelligence. My relevant coursework includes Machine Learning, Deep Learning, Data Science, Natural Language Processing, Computer Vision, Algorithms, Statistics for AI, and Model Deployment. I hold the MCF AI-900 certification and additional AI coursework certificates.",
+      "metadata": {
+        "category": "education",
+        "tags": ["university", "certifications", "ai", "coursework"]
+      }
     },
     {
       "id": "chunk-projects-001",
       "title": "Student Management System Project",
       "type": "projects",
       "content": "I developed a Student-Management-System, a comprehensive system for managing student records, enrollment, grades, and academic information. This project streamlined student record management for educational institutions. I used HTML, CSS, and Database Management technologies.",
-      "metadata": {"category": "projects", "tags": ["project", "system-development"]}
+      "metadata": {
+        "category": "projects",
+        "tags": ["project", "system-development"]
+      }
     },
     {
       "id": "chunk-projects-002",
       "title": "Scholarship Monitoring System with Data Analytics",
       "type": "projects",
       "content": "I built a Scholarship Monitoring System with Data Analytics for end-to-end tracking of scholarship disbursements, student progress, and analytical insights using data visualization. This system provides data-driven insights for scholarship program management and decision-making. Key features include real-time monitoring, analytics dashboard, reporting tools, and student tracking. Technologies used: HTML, CSS, Database, Data Analytics, and Reporting.",
-      "metadata": {"category": "projects", "tags": ["project", "analytics", "data"]}
+      "metadata": {
+        "category": "projects",
+        "tags": ["project", "analytics", "data"]
+      }
     },
     {
       "id": "chunk-projects-003",
       "title": "AI-Powered Digital Twin Workshop Platform",
       "type": "projects",
       "content": "I am working on an AI-Powered Digital Twin Workshop Platform, an end-to-end RAG system for interview preparation and professional development. This platform helps professionals improve interview performance and career readiness. Technologies include Python, Upstash Vector, Groq API, and Next.js.",
-      "metadata": {"category": "projects", "tags": ["project", "ai", "rag"]}
+      "metadata": { "category": "projects", "tags": ["project", "ai", "rag"] }
     },
     {
       "id": "chunk-career-001",
       "title": "Career Goals and Learning",
       "type": "career",
       "content": "My short-term goal is to strengthen my skills in web design, focusing on building clean, responsive, and user-friendly interfaces using HTML and CSS. Long-term, I aspire to become a lead UI/UX designer or front-end specialist in a creative and innovative company. I am focused on learning modern web layout techniques, design systems, accessibility, and improving my visual design skills. I am interested in industries like web development, digital design, and creative media. My recent learning includes responsive layout design, CSS frameworks, poster layout techniques, and basic video editing workflows.",
-      "metadata": {"category": "career", "tags": ["goals", "learning", "professional"]}
+      "metadata": {
+        "category": "career",
+        "tags": ["goals", "learning", "professional"]
+      }
     },
     {
       "id": "chunk-interview-001",
       "title": "Interview Preparation - Technical Skills",
       "type": "interview",
       "content": "My technical expertise includes web design with HTML and CSS, database design, and data analytics. I understand how to structure relational data, create efficient queries, ensure data integrity, normalize databases, and optimize performance for reporting and analytics. I can design clear visualizations, implement responsive UI for different devices, and test with actual users for usability.",
-      "metadata": {"category": "interview", "tags": ["technical", "interview-prep"]}
+      "metadata": {
+        "category": "interview",
+        "tags": ["technical", "interview-prep"]
+      }
     },
     {
       "id": "chunk-interview-002",
       "title": "Interview Preparation - Problem Solving",
       "type": "interview",
       "content": "When facing technical problems, I take a systematic approach: I immediately assess impact and severity, reproduce the issue in a safe environment, trace the code to find the root cause, implement a quick fix or workaround, test thoroughly, deploy the fix, monitor for recurring issues, and document the solution. I also use iterative development with regular stakeholder check-ins and break down requirements into smaller deliverables prioritized by business value.",
-      "metadata": {"category": "interview", "tags": ["problem-solving", "interview-prep"]}
+      "metadata": {
+        "category": "interview",
+        "tags": ["problem-solving", "interview-prep"]
+      }
     },
     {
       "id": "chunk-strengths-001",
       "title": "Key Strengths and Attributes",
       "type": "strengths",
       "content": "My key strengths include strong web design and HTML/CSS expertise with certifications, creative problem-solving in building complex systems, database design and data analytics understanding, quick learning ability to pick up new technologies as needed, and passion for user experience and interface design. I have practical experience designing databases, creating efficient queries, and building data analytics solutions that help organizations make data-driven decisions.",
-      "metadata": {"category": "strengths", "tags": ["strengths", "attributes"]}
+      "metadata": {
+        "category": "strengths",
+        "tags": ["strengths", "attributes"]
+      }
     }
   ],
   "personal": {
-    "name": "Jhon Danver C. Abogado",
-    "title": "Certified HTML and CSS Developer",
-    "location": "Cagayan, Philippines",
-    "summary": "Just a student who enjoys designing websites and learning new things.",
+    "name": "Jan Cornelius Miguel Alcaide",
+    "title": "Certified MCF AI-900",
+    "location": "Ilagan, Isabela, Philippines",
+    "summary": "SPUP student who enjoys designing Games and learning new technologies.",
     "elevator_pitch": "Brief 30-second introduction highlighting your unique value proposition",
     "contact": {
-      "email": "jhonabogado@spup.edu.ph",
+      "email": "janalcaide@spup.edu.ph",
       "linkedin": "https://www.linkedin.com/in/jhon-danver-abogado-abb196396/",
-      "github": "https://github.com/jedeee-ei"
+      "github": "https://github.com/janalcaide-ops"
     }
   },
   "skills": {
     "technical": {
       "programming_languages": [
-        {"language": "HTML", "years": 2, "proficiency": "Expert", "frameworks": ["Certified HTML Developer"]},
-        {"language": "CSS", "years": 2, "proficiency": "Expert", "frameworks": ["Certified CSS Developer"]}
+        {
+          "language": "Python",
+          "years": 2,
+          "proficiency": "Intermediate",
+          "frameworks": ["PyTorch", "TensorFlow"]
+        },
+        {
+          "language": "SQL",
+          "years": 2,
+          "proficiency": "Intermediate",
+          "frameworks": ["Postgres", "SQLite"]
+        }
       ],
-      "design_tools": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Canva"],
-      "web_design": {
-        "proficiency": "Advanced",
-        "experience": "Passionate about designing creative and responsive websites",
-        "specialties": ["UI/UX Design", "Responsive Web Design", "Web Layout", "Color Theory", "Typography"]
+      "design_tools": [
+        "Figma",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Canva"
+      ],
+      "ai_practices": {
+        "proficiency": "Intermediate",
+        "experience": "Building ML models, data preprocessing, and model deployment",
+        "specialties": [
+          "Machine Learning",
+          "Deep Learning",
+          "NLP",
+          "Computer Vision",
+          "Data Science"
+        ]
       },
-      "graphic_design": {
-        "proficiency": "Advanced",
-        "experience": "Creating creative posters and visual content",
-        "specialties": ["Poster Design", "Branding", "Visual Communication", "Layout Design"]
-      },
-      "video_editing": {
-        "proficiency": "Beginner",
-        "experience": "Short experience in video editing",
-        "tools": ["Adobe Premiere Pro", "DaVinci Resolve", "CapCut"],
-        "specialties": ["Basic Video Editing", "Transitions", "Color Grading"]
+      "tools_frameworks": {
+        "proficiency": "Intermediate",
+        "tools": ["PyTorch", "TensorFlow", "scikit-learn", "Pandas"],
+        "specialties": [
+          "Model Prototyping",
+          "Experiment Tracking",
+          "Model Deployment"
+        ]
       }
     },
-    "soft_skills": ["Creativity", "Attention to Detail", "Visual Communication", "Problem-solving", "Collaborative Design"],
-    "certifications": ["Certified HTML Developer", "Certified CSS Developer"]
+    "soft_skills": [
+      "Creativity",
+      "Attention to Detail",
+      "Visual Communication",
+      "Problem-solving",
+      "Collaborative Design"
+    ],
+    "certifications": ["MCF AI-900", "AI Foundations (in progress)"]
   },
   "education": {
     "university": "Saint Paul University Philippines Tugegarao City",
-    "degree": "Bachelor of Science in Information Technology",
-    "relevant_coursework": ["Web Design", "HTML & CSS", "Graphic Design", "UI/UX Design", "Digital Media", "Video Editing", "Creative Design Fundamentals", "Web Development"],
-    "certifications": ["Certified HTML Developer", "Certified CSS Developer"],
-    "focus_areas": ["Web Design", "Graphic Design", "Creative Development"]
+    "degree": "Bachelor of Science in Artificial Intelligence",
+    "relevant_coursework": [
+      "Machine Learning",
+      "Deep Learning",
+      "Data Science",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Algorithms",
+      "Statistics for AI",
+      "Model Deployment"
+    ],
+    "certifications": ["MCF AI-900"],
+    "focus_areas": ["Machine Learning", "Data Science", "AI Applications"]
   },
   "projects_portfolio": [
     {
@@ -142,9 +206,20 @@
     {
       "name": "Scholarship Monitoring System with Data Analytics",
       "description": "End-to-end system for tracking scholarship disbursements, student progress, and analytical insights using data visualization",
-      "technologies": ["HTML", "CSS", "Database", "Data Analytics", "Reporting"],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Database",
+        "Data Analytics",
+        "Reporting"
+      ],
       "impact": "Provides data-driven insights for scholarship program management and decision-making",
-      "features": ["Real-time monitoring", "Analytics dashboard", "Reporting tools", "Student tracking"]
+      "features": [
+        "Real-time monitoring",
+        "Analytics dashboard",
+        "Reporting tools",
+        "Student tracking"
+      ]
     },
     {
       "name": "AI-Powered Digital Twin Workshop Platform",
@@ -200,7 +275,13 @@
         }
       ],
       "company_research": {
-        "research_areas": ["Company mission and values", "Recent product launches", "Engineering culture", "Technical challenges", "Design philosophy"],
+        "research_areas": [
+          "Company mission and values",
+          "Recent product launches",
+          "Engineering culture",
+          "Technical challenges",
+          "Design philosophy"
+        ],
         "preparation_questions": [
           "What excites you about our product?",
           "Why do you want to work here?",

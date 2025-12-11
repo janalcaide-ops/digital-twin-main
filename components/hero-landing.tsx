@@ -1,11 +1,28 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { MessageCircle, X, Github, Linkedin, Mail, ExternalLink, Palette, Brush, Wrench, BookOpen, BarChart3, Zap, Code2, Layers, Award, Video } from 'lucide-react'
-import DigitalTwinChat from './digital-twin-chat'
+import { useState } from "react";
+import {
+  MessageCircle,
+  X,
+  Github,
+  Linkedin,
+  Mail,
+  ExternalLink,
+  Palette,
+  Brush,
+  Wrench,
+  BookOpen,
+  BarChart3,
+  Zap,
+  Code2,
+  Layers,
+  Award,
+  Video,
+} from "lucide-react";
+import DigitalTwinChat from "./digital-twin-chat";
 
 export default function HeroLanding() {
-  const [showChat, setShowChat] = useState(false)
+  const [showChat, setShowChat] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
@@ -13,14 +30,39 @@ export default function HeroLanding() {
       <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 z-40">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Jhon Danver
+            Jan Cornelius Miguel Alcaide
           </div>
           <div className="hidden md:flex gap-6 items-center">
-            <a href="#home" className="text-gray-300 hover:text-white transition">Home</a>
-            <a href="#about" className="text-gray-300 hover:text-white transition">About</a>
-            <a href="#skills" className="text-gray-300 hover:text-white transition">Skills</a>
-            <a href="#projects" className="text-gray-300 hover:text-white transition">Projects</a>
-            <a href="#contact" className="text-gray-300 hover:text-white transition">Contact</a>
+            <a
+              href="#home"
+              className="text-gray-300 hover:text-white transition"
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              className="text-gray-300 hover:text-white transition"
+            >
+              About
+            </a>
+            <a
+              href="#skills"
+              className="text-gray-300 hover:text-white transition"
+            >
+              Skills
+            </a>
+            <a
+              href="#projects"
+              className="text-gray-300 hover:text-white transition"
+            >
+              Projects
+            </a>
+            <a
+              href="#contact"
+              className="text-gray-300 hover:text-white transition"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -33,28 +75,36 @@ export default function HeroLanding() {
             <div className="space-y-8">
               <div>
                 <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 leading-tight whitespace-nowrap">
-                  Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Jhon Danver</span>
+                  Hi, I'm{" "}
+                  <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                    Jan Cornelius Miguel Alcaide
+                  </span>
                 </h1>
                 <p className="text-xl text-gray-300">
-                  Certified HTML and CSS Developer | Web Designer | Student
+                  Certified MCF AI-900 | Artificial Intelligence Student | AI
+                  Developer
                 </p>
               </div>
 
               <p className="text-lg text-gray-400 leading-relaxed max-w-lg">
-                I am a passionate web designer and student who enjoys designing responsive websites and creative visual content. With expertise in HTML, CSS, and graphic design, I specialize in UI/UX design and building systems that streamline complex processes.
+                I am a passionate AI coder and student who enjoys building
+                intelligent systems and creative solutions. With expertise in
+                Python, machine learning, and algorithm design, I specialize in
+                developing AI-driven applications and streamlining complex
+                processes through automation and smart coding practices.
               </p>
 
               <div className="grid grid-cols-3 gap-4 py-6">
                 <div>
                   <div className="text-3xl font-bold text-blue-400">2</div>
-                  <p className="text-gray-400 text-sm">Years HTML/CSS</p>
+                  <p className="text-gray-400 text-sm">Years AI Coding</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-purple-400">3</div>
+                  <div className="text-3xl font-bold text-purple-400">2</div>
                   <p className="text-gray-400 text-sm">Major Projects</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-green-400">2</div>
+                  <div className="text-3xl font-bold text-green-400">1</div>
                   <p className="text-gray-400 text-sm">Certifications</p>
                 </div>
               </div>
@@ -78,7 +128,7 @@ export default function HeroLanding() {
               {/* Social Links */}
               <div className="flex gap-4 pt-4">
                 <a
-                  href="https://github.com/jedeee-ei"
+                  href="https://github.com/janalcaide-ops"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-gray-400 hover:text-white transition"
@@ -94,7 +144,7 @@ export default function HeroLanding() {
                   <Linkedin size={24} />
                 </a>
                 <a
-                  href="mailto:jhonabogado@spup.edu.ph"
+                  href="mailto:janalcaide@spup.edu.ph"
                   className="p-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-gray-400 hover:text-white transition"
                 >
                   <Mail size={24} />
@@ -107,22 +157,22 @@ export default function HeroLanding() {
               <div className="relative w-80 h-96">
                 {/* Background Glow */}
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-3xl opacity-30 blur-2xl"></div>
-                
+
                 {/* Image Container */}
-                <div className="relative w-full h-full bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-1 overflow-hidden">
-                  <img
-                    src="/profile.jpg"
-                    alt="Jhon Danver"
-                    className="w-full h-full object-cover rounded-3xl"
-                  />
-                  
+                <div className="relative w-full h-full bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-1 overflow-hidden flex items-center justify-center">
+                  {/* Profile image removed — show neutral placeholder */}
+                  <div className="w-full h-full rounded-3xl bg-gradient-to-tr from-slate-700 to-slate-900 flex items-center justify-center text-gray-400">
+                    <span className="text-sm opacity-70">
+                      Profile image removed
+                    </span>
+                  </div>
                   {/* Overlay Gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-40 rounded-3xl"></div>
                 </div>
 
                 {/* Badge */}
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-2 rounded-full font-semibold text-sm shadow-lg">
-                  Web Developer & Designer
+                  AI Developer
                 </div>
               </div>
             </div>
@@ -136,20 +186,35 @@ export default function HeroLanding() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-6 hover:border-blue-500/50 transition">
               <Palette className="w-8 h-8 mb-3 text-blue-400" />
-              <h3 className="text-xl font-semibold text-white mb-2">Web Design Expert</h3>
-              <p className="text-gray-400">Certified in HTML and CSS with 2 years of expertise in responsive web design and UI/UX</p>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                AI & ML Developer
+              </h3>
+              <p className="text-gray-400">
+                Experience building machine learning models and AI pipelines
+                using Python, PyTorch, and TensorFlow.
+              </p>
             </div>
 
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-6 hover:border-purple-500/50 transition">
               <Brush className="w-8 h-8 mb-3 text-purple-400" />
-              <h3 className="text-xl font-semibold text-white mb-2">Graphic Designer</h3>
-              <p className="text-gray-400">Creative visual design specializing in poster design, branding, and visual communication</p>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                Game Designer
+              </h3>
+              <p className="text-gray-400">
+                Creative visual design specializing in sprite design, character model,
+                and game logos
+              </p>
             </div>
 
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-6 hover:border-green-500/50 transition">
               <Wrench className="w-8 h-8 mb-3 text-green-400" />
-              <h3 className="text-xl font-semibold text-white mb-2">System Builder</h3>
-              <p className="text-gray-400">Designing and developing comprehensive management and analytics systems</p>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                System Builder
+              </h3>
+              <p className="text-gray-400">
+                Designing and developing comprehensive management and analytics
+                systems
+              </p>
             </div>
           </div>
         </div>
@@ -158,33 +223,64 @@ export default function HeroLanding() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            About Me
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-white mb-4">📚 Education</h3>
-              <p className="text-gray-400">Certified HTML and CSS Developer with continuous learning in web development and AI technologies. Always exploring new frameworks and best practices.</p>
+              <h3 className="text-2xl font-semibold text-white mb-4">
+                📚 Education
+              </h3>
+              <p className="text-gray-400">
+                Pursuing a Bachelor of Science in Artificial Intelligence with
+                hands-on experience in machine learning, data science, and model
+                deployment. Continuously learning modern AI tools and best
+                practices.
+              </p>
             </div>
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-white mb-4">🎯 Focus</h3>
-              <p className="text-gray-400">Building user-centric applications with modern frameworks. Specialized in MCP server development, RAG systems, and AI-powered web experiences.</p>
+              <h3 className="text-2xl font-semibold text-white mb-4">
+                🎯 Focus
+              </h3>
+              <p className="text-gray-400">
+                Building user-centric applications with modern frameworks.
+                Specialized in MCP server development, RAG systems, and
+                AI-powered web experiences.
+              </p>
             </div>
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-white mb-4">🌟 Values</h3>
-              <p className="text-gray-400">Clean code, continuous improvement, and creating meaningful digital experiences. Passionate about open-source and knowledge sharing.</p>
+              <h3 className="text-2xl font-semibold text-white mb-4">
+                🌟 Values
+              </h3>
+              <p className="text-gray-400">
+                Clean code, continuous improvement, and creating meaningful
+                digital experiences. Passionate about open-source and knowledge
+                sharing.
+              </p>
             </div>
           </div>
 
           <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-8">
-            <h3 className="text-2xl font-semibold text-white mb-4">My Journey</h3>
+            <h3 className="text-2xl font-semibold text-white mb-4">
+              My Journey
+            </h3>
             <div className="space-y-4 text-gray-400">
               <p>
-                I am a student at Saint Paul University Philippines, pursuing a Bachelor of Science in Information Technology. As a Certified HTML and CSS Developer with 2 years of hands-on experience, I've developed a strong foundation in web design and responsive development.
+                I am a student at Saint Paul University Philippines, pursuing a
+                Bachelor of Science in Artificial Intelligence. I focus on
+                machine learning, data science, and building AI-driven
+                applications.
               </p>
               <p>
-                Beyond web development, I'm passionate about graphic design and visual communication. I work with tools like Figma, Adobe Photoshop, and Adobe Illustrator to create compelling visual content. I also have beginner-level experience in video editing with tools like Adobe Premiere Pro and DaVinci Resolve.
+                Beyond AI development, I'm passionate about game development. I work with tools like Godot, Unreal Engine, and Unity to create 2D and 3D games
+                that combine engaging gameplay with compelling narratives.
               </p>
               <p>
-                My goal is to become a lead UI/UX designer or front-end specialist in a creative and innovative company. I'm focused on learning modern web layout techniques, design systems, accessibility, and continuously improving my visual design skills. I believe in creating user-centric solutions that solve real-world problems.
+                My goal is to become a Full Stack Developer or Game Developer in a creative and innovative company. I'm focused on
+                learning modern AI Game Development techniques, design systems,
+                accessibility, and continuously improving my visual design
+                skills. I believe in creating user-centric solutions that solve
+                real-world problems.
               </p>
             </div>
           </div>
@@ -194,26 +290,46 @@ export default function HeroLanding() {
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills & Technologies</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Skills & Technologies
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-blue-400 mb-6">Web Design</h3>
+              <h3 className="text-2xl font-semibold text-blue-400 mb-6">
+                AI & ML
+              </h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-sm font-medium text-gray-300 mb-2">Core Languages (Expert)</p>
+                  <p className="text-sm font-medium text-gray-300 mb-2">
+                    Core Languages (Intermidiate)
+                  </p>
                   <div className="flex flex-wrap gap-2">
-                    {['HTML', 'CSS'].map(skill => (
-                      <span key={skill} className="px-3 py-1 bg-blue-500/20 border border-blue-500/50 text-blue-300 rounded-lg text-sm">
+                    {["Python", "SQL"].map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1 bg-blue-500/20 border border-blue-500/50 text-blue-300 rounded-lg text-sm"
+                      >
                         {skill}
                       </span>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-gray-300 mb-2">Specialties</p>
+                  <p className="text-sm font-medium text-gray-300 mb-2">
+                    Specialties
+                  </p>
                   <div className="flex flex-wrap gap-2">
-                    {['UI/UX Design', 'Responsive Design', 'Web Layout', 'Color Theory', 'Typography'].map(skill => (
-                      <span key={skill} className="px-3 py-1 bg-blue-500/20 border border-blue-500/50 text-blue-300 rounded-lg text-sm">
+                    {[
+                      "Machine Learning",
+                      "Deep Learning",
+                      "NLP",
+                      "Computer Vision",
+                      "Data Science",
+                    ].map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1 bg-blue-500/20 border border-blue-500/50 text-blue-300 rounded-lg text-sm"
+                      >
                         {skill}
                       </span>
                     ))}
@@ -221,25 +337,44 @@ export default function HeroLanding() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-8">
-              <h3 className="text-2xl font-semibold text-purple-400 mb-6">Design & Creative</h3>
+              <h3 className="text-2xl font-semibold text-purple-400 mb-6">
+                Tools & Frameworks
+              </h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-sm font-medium text-gray-300 mb-2">Graphic Design (Advanced)</p>
+                  <p className="text-sm font-medium text-gray-300 mb-2">
+                    AI Frameworks & Libraries
+                  </p>
                   <div className="flex flex-wrap gap-2">
-                    {['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'Canva'].map(skill => (
-                      <span key={skill} className="px-3 py-1 bg-purple-500/20 border border-purple-500/50 text-purple-300 rounded-lg text-sm">
-                        {skill}
-                      </span>
-                    ))}
+                    {["PyTorch", "TensorFlow", "scikit-learn", "Pandas"].map(
+                      (skill) => (
+                        <span
+                          key={skill}
+                          className="px-3 py-1 bg-purple-500/20 border border-purple-500/50 text-purple-300 rounded-lg text-sm"
+                        >
+                          {skill}
+                        </span>
+                      )
+                    )}
                   </div>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-gray-300 mb-2">Graphic Specialties</p>
+                  <p className="text-sm font-medium text-gray-300 mb-2">
+                    AI Practices
+                  </p>
                   <div className="flex flex-wrap gap-2">
-                    {['Poster Design', 'Branding', 'Visual Communication', 'Layout Design'].map(skill => (
-                      <span key={skill} className="px-3 py-1 bg-purple-500/20 border border-purple-500/50 text-purple-300 rounded-lg text-sm">
+                    {[
+                      "Model Prototyping",
+                      "Data Preprocessing",
+                      "Model Deployment",
+                      "Experiment Tracking",
+                    ].map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1 bg-purple-500/20 border border-purple-500/50 text-purple-300 rounded-lg text-sm"
+                      >
                         {skill}
                       </span>
                     ))}
@@ -253,11 +388,22 @@ export default function HeroLanding() {
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-6">
               <div className="flex items-center gap-2 mb-4">
                 <Award className="w-6 h-6 text-green-400" />
-                <h4 className="text-lg font-semibold text-green-400">Soft Skills</h4>
+                <h4 className="text-lg font-semibold text-green-400">
+                  Soft Skills
+                </h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['Creativity', 'Attention to Detail', 'Visual Communication', 'Problem-solving', 'Collaborative Design'].map(tool => (
-                  <span key={tool} className="px-2 py-1 text-xs bg-green-500/20 text-green-300 rounded">
+                {[
+                  "Creativity",
+                  "Attention to Detail",
+                  "Visual Communication",
+                  "Problem-solving",
+                  "Collaborative Design",
+                ].map((tool) => (
+                  <span
+                    key={tool}
+                    className="px-2 py-1 text-xs bg-green-500/20 text-green-300 rounded"
+                  >
                     {tool}
                   </span>
                 ))}
@@ -266,24 +412,41 @@ export default function HeroLanding() {
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-6">
               <div className="flex items-center gap-2 mb-4">
                 <Award className="w-6 h-6 text-orange-400" />
-                <h4 className="text-lg font-semibold text-orange-400">Certifications</h4>
+                <h4 className="text-lg font-semibold text-orange-400">
+                  Certifications
+                </h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['Certified HTML Developer', 'Certified CSS Developer'].map(tool => (
-                  <span key={tool} className="px-2 py-1 text-xs bg-orange-500/20 text-orange-300 rounded">
-                    {tool}
-                  </span>
-                ))}
+                {["Certified HTML Developer", "Certified CSS Developer"].map(
+                  (tool) => (
+                    <span
+                      key={tool}
+                      className="px-2 py-1 text-xs bg-orange-500/20 text-orange-300 rounded"
+                    >
+                      {tool}
+                    </span>
+                  )
+                )}
               </div>
             </div>
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl p-6">
               <div className="flex items-center gap-2 mb-4">
                 <Video className="w-6 h-6 text-pink-400" />
-                <h4 className="text-lg font-semibold text-pink-400">Video Editing (Beginner)</h4>
+                <h4 className="text-lg font-semibold text-pink-400">
+                  Video Editing (Beginner)
+                </h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['Adobe Premiere Pro', 'DaVinci Resolve', 'CapCut', 'Color Grading'].map(practice => (
-                  <span key={practice} className="px-2 py-1 text-xs bg-pink-500/20 text-pink-300 rounded">
+                {[
+                  "Adobe Premiere Pro",
+                  "DaVinci Resolve",
+                  "CapCut",
+                  "Color Grading",
+                ].map((practice) => (
+                  <span
+                    key={practice}
+                    className="px-2 py-1 text-xs bg-pink-500/20 text-pink-300 rounded"
+                  >
                     {practice}
                   </span>
                 ))}
@@ -294,24 +457,43 @@ export default function HeroLanding() {
       </section>
 
       {/* Projects Section - St. Paul University */}
-      <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+      <section
+        id="projects"
+        className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50"
+      >
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Projects</h2>
-          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Contributed to critical institutional systems and student services at St. Paul University Philippines</p>
-          
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Projects
+          </h2>
+          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+            Contributed to critical institutional systems and student services
+            at St. Paul University Philippines
+          </p>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Instructor Login System */}
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl overflow-hidden hover:border-blue-500/50 transition group shadow-lg hover:shadow-xl hover:shadow-blue-500/10">
               <div className="h-48 bg-gradient-to-br from-blue-900 to-gray-900 overflow-hidden relative">
-                <img src="/spup-instructor-login.jpg" alt="Instructor Login System" className="w-full h-full object-cover group-hover:scale-110 transition duration-500 brightness-90 group-hover:brightness-100" />
+                <img
+                  src="/spup-instructor-login.jpg"
+                  alt="Instructor Login System"
+                  className="w-full h-full object-cover group-hover:scale-110 transition duration-500 brightness-90 group-hover:brightness-100"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-60 group-hover:opacity-40 transition duration-300"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">Instructor Login System</h3>
-                <p className="text-gray-400 mb-4 text-sm">Secure authentication portal for instructors and faculty members. Provides credentials-based access to institutional resources and grade management.</p>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Language Learning Application with Artificial Intelligence
+                </h3>
+                <p className="text-gray-400 mb-4 text-sm">
+                  Secure authentication portal for learners and instructors. Provides credentials-based access to personalized language learning resources, AI-driven practice modules, and progress tracking.
+                </p>
                 <div className="flex gap-2 flex-wrap">
-                  {['Authentication', 'Security', 'Credentials'].map(tag => (
-                    <span key={tag} className="px-2 py-1 text-xs bg-blue-500/20 text-blue-300 rounded">
+                  {["Authentication", "Security", "Credentials"].map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs bg-blue-500/20 text-blue-300 rounded"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -322,15 +504,28 @@ export default function HeroLanding() {
             {/* Student Dashboard */}
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl overflow-hidden hover:border-green-500/50 transition group shadow-lg hover:shadow-xl hover:shadow-green-500/10">
               <div className="h-48 bg-gradient-to-br from-green-900 to-gray-900 overflow-hidden relative">
-                <img src="/spup-student-dashboard.jpg" alt="Student Dashboard" className="w-full h-full object-cover group-hover:scale-110 transition duration-500 brightness-90 group-hover:brightness-100" />
+                <img
+                  src="/spup-student-dashboard.jpg"
+                  alt="Student Dashboard"
+                  className="w-full h-full object-cover group-hover:scale-110 transition duration-500 brightness-90 group-hover:brightness-100"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-60 group-hover:opacity-40 transition duration-300"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">Student Dashboard</h3>
-                <p className="text-gray-400 mb-4 text-sm">Comprehensive student portal displaying academic status, scholarship tracking, and application forms. Centralized hub for student information and services.</p>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Student Dashboard
+                </h3>
+                <p className="text-gray-400 mb-4 text-sm">
+                  Comprehensive student portal displaying academic status,
+                  scholarship tracking, and application forms. Centralized hub
+                  for student information and services.
+                </p>
                 <div className="flex gap-2 flex-wrap">
-                  {['Dashboard', 'Scholarship', 'Forms'].map(tag => (
-                    <span key={tag} className="px-2 py-1 text-xs bg-green-500/20 text-green-300 rounded">
+                  {["Dashboard", "Scholarship", "Forms"].map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs bg-green-500/20 text-green-300 rounded"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -341,15 +536,28 @@ export default function HeroLanding() {
             {/* Office of the Registrar */}
             <div className="bg-slate-800/50 backdrop-blur border border-slate-700 rounded-xl overflow-hidden hover:border-purple-500/50 transition group shadow-lg hover:shadow-xl hover:shadow-purple-500/10">
               <div className="h-48 bg-gradient-to-br from-purple-900 to-gray-900 overflow-hidden relative">
-                <img src="/spup-registrar-portal.jpg" alt="Office of the Registrar Portal" className="w-full h-full object-cover group-hover:scale-110 transition duration-500 brightness-90 group-hover:brightness-100" />
+                <img
+                  src="/spup-registrar-portal.jpg"
+                  alt="Office of the Registrar Portal"
+                  className="w-full h-full object-cover group-hover:scale-110 transition duration-500 brightness-90 group-hover:brightness-100"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-60 group-hover:opacity-40 transition duration-300"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">Office of the Registrar Portal</h3>
-                <p className="text-gray-400 mb-4 text-sm">Official institutional portal showcasing student records management and registration services. Provides secure access to academic records and enrollment information.</p>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Office of the Registrar Portal
+                </h3>
+                <p className="text-gray-400 mb-4 text-sm">
+                  Official institutional portal showcasing student records
+                  management and registration services. Provides secure access
+                  to academic records and enrollment information.
+                </p>
                 <div className="flex gap-2 flex-wrap">
-                  {['Portal', 'Records', 'Registration'].map(tag => (
-                    <span key={tag} className="px-2 py-1 text-xs bg-purple-500/20 text-purple-300 rounded">
+                  {["Portal", "Records", "Registration"].map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs bg-purple-500/20 text-purple-300 rounded"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -366,9 +574,14 @@ export default function HeroLanding() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Column - Contact Info */}
             <div>
-              <h2 className="text-4xl font-bold text-white mb-4">Let's Connect</h2>
+              <h2 className="text-4xl font-bold text-white mb-4">
+                Let's Connect
+              </h2>
               <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-                I'm always excited to discuss AI projects, robotics innovations, or potential collaborations. Whether you're looking for an AI developer, data analyst, or just want to chat about technology, feel free to reach out!
+                I'm always excited to discuss AI projects, robotics innovations,
+                or potential collaborations. Whether you're looking for an AI
+                developer, data analyst, or just want to chat about technology,
+                feel free to reach out!
               </p>
 
               <div className="space-y-4">
@@ -378,7 +591,10 @@ export default function HeroLanding() {
                     <Mail className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-white mb-1">Email</h3>
-                      <a href="mailto:jhonabogado@spup.edu.ph" className="text-gray-300 hover:text-purple-400 transition">
+                      <a
+                        href="mailto:jhonabogado@spup.edu.ph"
+                        className="text-gray-300 hover:text-purple-400 transition"
+                      >
                         jhonabogado@spup.edu.ph
                       </a>
                     </div>
@@ -390,9 +606,17 @@ export default function HeroLanding() {
                   <div className="flex items-start gap-4">
                     <Linkedin className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-white mb-1">LinkedIn</h3>
-                      <a href="https://www.linkedin.com/in/jhon-danver-abogado-abb196396/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition flex items-center gap-2">
-                        www.linkedin.com/in/jhon-danver-abogado <ExternalLink size={14} />
+                      <h3 className="font-semibold text-white mb-1">
+                        LinkedIn
+                      </h3>
+                      <a
+                        href="https://www.linkedin.com/in/jhon-danver-abogado-abb196396/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 hover:text-purple-400 transition flex items-center gap-2"
+                      >
+                        www.linkedin.com/in/jhon-danver-abogado{" "}
+                        <ExternalLink size={14} />
                       </a>
                     </div>
                   </div>
@@ -404,7 +628,12 @@ export default function HeroLanding() {
                     <Github className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-white mb-1">GitHub</h3>
-                      <a href="https://github.com/jedeee-ei" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition flex items-center gap-2">
+                      <a
+                        href="https://github.com/jedeee-ei"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 hover:text-purple-400 transition flex items-center gap-2"
+                      >
                         github.com/jedeee-ei <ExternalLink size={14} />
                       </a>
                     </div>
@@ -415,11 +644,15 @@ export default function HeroLanding() {
 
             {/* Right Column - Contact Form */}
             <div className="bg-gradient-to-br from-slate-900/80 to-slate-800/80 border border-slate-700/50 rounded-xl p-8 backdrop-blur-md">
-              <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">
+                Send a Message
+              </h3>
               <form className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-2">
+                      Name
+                    </label>
                     <input
                       type="text"
                       placeholder="Your name"
@@ -427,7 +660,9 @@ export default function HeroLanding() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-2">
+                      Email
+                    </label>
                     <input
                       type="email"
                       placeholder="your.email@example.com"
@@ -437,7 +672,9 @@ export default function HeroLanding() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-300 mb-2">Subject</label>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">
+                    Subject
+                  </label>
                   <input
                     type="text"
                     placeholder="What's this about?"
@@ -446,7 +683,9 @@ export default function HeroLanding() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">
+                    Message
+                  </label>
                   <textarea
                     placeholder="Tell me about your project or opportunity..."
                     rows={5}
@@ -489,8 +728,12 @@ export default function HeroLanding() {
                   <MessageCircle size={20} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-white text-lg">Virtual Jhon Danver</h3>
-                  <p className="text-sm text-blue-100">Ask me anything about my background</p>
+                  <h3 className="font-bold text-white text-lg">
+                    Virtual Jhon Danver
+                  </h3>
+                  <p className="text-sm text-blue-100">
+                    Ask me anything about my background
+                  </p>
                 </div>
               </div>
               <button
@@ -510,5 +753,5 @@ export default function HeroLanding() {
         </div>
       )}
     </div>
-  )
+  );
 }
