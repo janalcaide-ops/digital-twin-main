@@ -4,7 +4,7 @@
       "id": "chunk-personal-001",
       "title": "Personal Information",
       "type": "personal",
-      "content": "My name is Jan Cornelius Miguel Alcaide. I am a Certified MCF AI-900 from Cagayan, Philippines. I am a student pursuing a Bachelor of Science in Artificial Intelligence who enjoys building machine learning models and AI-driven applications. You can reach me at janalcaide@spup.edu.ph or connect with me on LinkedIn at https://www.linkedin.com/in/jhon-danver-abogado-abb196396/ or GitHub at https://github.com/janalcaide-ops",
+      "content": "My name is Jan Cornelius Miguel Alcaide. I am a Certified MCF AI-900 from Cagayan, Philippines. I am a student pursuing a Bachelor of Science in Artificial Intelligence who enjoys building machine learning models and AI-driven applications. You can reach me at janalcaide@spup.edu.ph or connect with me on LinkedIn at https://www.linkedin.com/in/jan-cornelius-miguel-alcaide-619a07393/ or GitHub at https://github.com/janalcaide-ops",
       "metadata": {
         "category": "personal",
         "tags": ["contact", "profile", "ai"]
@@ -41,7 +41,7 @@
       "id": "chunk-education-001",
       "title": "Education",
       "type": "education",
-      "content": "I am studying at Saint Paul University Philippines Tugegarao City, pursuing a Bachelor of Science in Artificial Intelligence. My relevant coursework includes Machine Learning, Deep Learning, Data Science, Natural Language Processing, Computer Vision, Algorithms, Statistics for AI, and Model Deployment. I hold the MCF AI-900 certification and additional AI coursework certificates.",
+      "content": "I am studying at Saint Paul University Philippines Tugegarao City, pursuing a Bachelor of Science in Information Technology. My relevant coursework includes Machine Learning, Deep Learning, Data Science, Natural Language Processing, Computer Vision, Algorithms, Statistics for AI, and Model Deployment. I hold the MCF AI-900 certification and additional AI coursework certificates.",
       "metadata": {
         "category": "education",
         "tags": ["university", "certifications", "ai", "coursework"]
@@ -49,9 +49,9 @@
     },
     {
       "id": "chunk-projects-001",
-      "title": "Student Management System Project",
+      "title": "Language Learning AI Platform with Machine Learning",
       "type": "projects",
-      "content": "I developed a Student-Management-System, a comprehensive system for managing student records, enrollment, grades, and academic information. This project streamlined student record management for educational institutions. I used HTML, CSS, and Database Management technologies.",
+      "content": "I developed a Language Learning AI Platform, an intelligent system that uses machine learning algorithms for personalized language learning recommendations. This platform implements NLP techniques for language processing, ML models for student performance prediction, and data analytics for adaptive learning paths. I used Python, PyTorch, TensorFlow, and scikit-learn for AI implementation.",
       "metadata": {
         "category": "projects",
         "tags": ["project", "system-development"]
@@ -59,9 +59,9 @@
     },
     {
       "id": "chunk-projects-002",
-      "title": "Scholarship Monitoring System with Data Analytics",
+      "title": "Predictive Analytics System for Student Performance",
       "type": "projects",
-      "content": "I built a Scholarship Monitoring System with Data Analytics for end-to-end tracking of scholarship disbursements, student progress, and analytical insights using data visualization. This system provides data-driven insights for scholarship program management and decision-making. Key features include real-time monitoring, analytics dashboard, reporting tools, and student tracking. Technologies used: HTML, CSS, Database, Data Analytics, and Reporting.",
+      "content": "I built a Predictive Analytics System using machine learning to forecast student academic performance and identify at-risk students. This system implements supervised learning models for prediction, feature engineering for student data, and data visualization for actionable insights. Key features include ML-based performance prediction, clustering algorithms for student segmentation, and anomaly detection. Technologies used: Python, scikit-learn, Pandas, TensorFlow, and data analytics pipelines.",
       "metadata": {
         "category": "projects",
         "tags": ["project", "analytics", "data"]
@@ -78,7 +78,7 @@
       "id": "chunk-career-001",
       "title": "Career Goals and Learning",
       "type": "career",
-      "content": "My short-term goal is to strengthen my skills in web design, focusing on building clean, responsive, and user-friendly interfaces using HTML and CSS. Long-term, I aspire to become a lead UI/UX designer or front-end specialist in a creative and innovative company. I am focused on learning modern web layout techniques, design systems, accessibility, and improving my visual design skills. I am interested in industries like web development, digital design, and creative media. My recent learning includes responsive layout design, CSS frameworks, poster layout techniques, and basic video editing workflows.",
+      "content": "My short-term goal is to strengthen my skills in machine learning and deep learning, focusing on advanced model architectures, transfer learning, and optimization techniques. Long-term, I aspire to become a lead AI/ML engineer or AI research specialist in an innovative AI company working on cutting-edge problems. I am focused on learning advanced deep learning frameworks, large language models (LLMs), reinforcement learning, and model deployment in production. I am interested in industries like AI research, machine learning engineering, computer vision, and natural language processing. My recent learning includes transformer models, neural architecture design, hyperparameter optimization, and MLOps best practices.",
       "metadata": {
         "category": "career",
         "tags": ["goals", "learning", "professional"]
@@ -88,7 +88,7 @@
       "id": "chunk-interview-001",
       "title": "Interview Preparation - Technical Skills",
       "type": "interview",
-      "content": "My technical expertise includes web design with HTML and CSS, database design, and data analytics. I understand how to structure relational data, create efficient queries, ensure data integrity, normalize databases, and optimize performance for reporting and analytics. I can design clear visualizations, implement responsive UI for different devices, and test with actual users for usability.",
+      "content": "My technical expertise includes machine learning model development, deep learning architectures, natural language processing, and computer vision. I understand how to structure datasets, implement supervised and unsupervised learning algorithms, perform feature engineering, normalize data, and optimize model performance. I can build CNN and RNN architectures, implement transfer learning, evaluate models with proper metrics, and deploy models in production environments using Python, PyTorch, and TensorFlow.",
       "metadata": {
         "category": "interview",
         "tags": ["technical", "interview-prep"]
@@ -108,7 +108,7 @@
       "id": "chunk-strengths-001",
       "title": "Key Strengths and Attributes",
       "type": "strengths",
-      "content": "My key strengths include strong web design and HTML/CSS expertise with certifications, creative problem-solving in building complex systems, database design and data analytics understanding, quick learning ability to pick up new technologies as needed, and passion for user experience and interface design. I have practical experience designing databases, creating efficient queries, and building data analytics solutions that help organizations make data-driven decisions.",
+      "content": "My key strengths include strong machine learning and deep learning expertise with AI-900 certification, creative problem-solving in building intelligent systems, data preprocessing and feature engineering skills, quick learning ability to pick up new AI frameworks and techniques, and passion for solving complex problems using AI. I have practical experience building ML models, implementing neural networks, optimizing hyperparameters, and creating data-driven AI solutions that solve real-world problems.",
       "metadata": {
         "category": "strengths",
         "tags": ["strengths", "attributes"]
@@ -123,7 +123,7 @@
     "elevator_pitch": "Brief 30-second introduction highlighting your unique value proposition",
     "contact": {
       "email": "janalcaide@spup.edu.ph",
-      "linkedin": "https://www.linkedin.com/in/jhon-danver-abogado-abb196396/",
+      "linkedin": "https://www.linkedin.com/in/jan-cornelius-miguel-alcaide-619a07393/",
       "github": "https://github.com/janalcaide-ops"
     }
   },
@@ -144,9 +144,9 @@
         }
       ],
       "design_tools": [
-        "Figma",
+        "blender",
         "Adobe Photoshop",
-        "Adobe Illustrator",
+        "Adobe Premiere Pro",
         "Canva"
       ],
       "ai_practices": {
@@ -181,7 +181,7 @@
   },
   "education": {
     "university": "Saint Paul University Philippines Tugegarao City",
-    "degree": "Bachelor of Science in Artificial Intelligence",
+    "degree": "Bachelor of Science in Information technology with specialization in Artificial Intelligence",
     "relevant_coursework": [
       "Machine Learning",
       "Deep Learning",
@@ -197,28 +197,34 @@
   },
   "projects_portfolio": [
     {
-      "name": "Student-Management-System",
-      "description": "Comprehensive system for managing student records, enrollment, grades, and academic information",
-      "technologies": ["HTML", "CSS", "Database Management"],
-      "impact": "Streamlined student record management for educational institutions",
-      "github_url": "https://github.com/jedeee-ei/student-management-system"
+      "name": "Language Learning AI Platform",
+      "description": "Intelligent ML system for personalized language learning using NLP and adaptive algorithms",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "NLP",
+        "Machine Learning"
+      ],
+      "impact": "Delivers personalized learning paths using ML for students and improves language acquisition outcomes",
+      "github_url": "https://github.com/janalcaide-ops/language-learning-ai"
     },
     {
-      "name": "Scholarship Monitoring System with Data Analytics",
-      "description": "End-to-end system for tracking scholarship disbursements, student progress, and analytical insights using data visualization",
+      "name": "Predictive Analytics System for Student Performance",
+      "description": "Machine learning system that predicts student academic performance using supervised learning and identifies at-risk students",
       "technologies": [
-        "HTML",
-        "CSS",
-        "Database",
-        "Data Analytics",
-        "Reporting"
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "TensorFlow",
+        "Data Analytics"
       ],
-      "impact": "Provides data-driven insights for scholarship program management and decision-making",
+      "impact": "Enables early intervention for at-risk students and improves overall academic outcomes through ML predictions",
       "features": [
-        "Real-time monitoring",
-        "Analytics dashboard",
-        "Reporting tools",
-        "Student tracking"
+        "ML-based performance prediction",
+        "Student clustering and segmentation",
+        "Anomaly detection for outliers",
+        "Explainable AI insights"
       ]
     },
     {
@@ -235,11 +241,11 @@
       "behavioral": [
         {
           "question": "Tell me about a time you had to lead a difficult technical decision",
-          "answer": "When developing the Scholarship Monitoring System, I had to decide between building a custom solution or using an existing framework. I chose to build custom HTML/CSS interfaces to ensure full control over the design and user experience. This decision allowed us to create a more intuitive dashboard for data analytics, improving adoption among stakeholders."
+          "answer": "When developing the Language Learning AI application, I had to decide between building a custom solution or using an existing framework. I chose to build custom HTML/CSS interfaces to ensure full control over the design and user experience. This decision allowed us to create a more intuitive dashboard for data analytics, improving adoption among stakeholders."
         },
         {
           "question": "Describe a project where you had to learn a new technology quickly",
-          "answer": "With the Scholarship Monitoring System project, I needed to quickly learn data analytics and reporting tools to implement the analytics features. I learned through online resources, documentation, and practical implementation, successfully delivering a working analytics dashboard within the project timeline."
+          "answer": "With the Language Learning AI application project, I needed to quickly learn data analytics and reporting tools to implement the analytics features. I learned through online resources, documentation, and practical implementation, successfully delivering a working analytics dashboard within the project timeline."
         },
         {
           "question": "How do you handle conflicting priorities and tight deadlines?",
@@ -248,30 +254,30 @@
       ],
       "technical": [
         {
-          "question": "Explain your web design and development process",
-          "answer": "I start with understanding user requirements and creating wireframes. Then I build semantic HTML for structure, implement responsive CSS for various screen sizes, and ensure accessibility. For the Student-Management-System, I focused on intuitive navigation and data presentation. I test across browsers and optimize for performance."
+          "question": "Explain your machine learning model development process",
+          "answer": "I start with understanding the problem and collecting relevant data. Then I perform exploratory data analysis, implement data preprocessing and feature engineering, select appropriate algorithms, train models with hyperparameter tuning, and evaluate using proper metrics. For my predictive analytics projects, I focused on model accuracy and interpretability. I implement cross-validation and optimize for production deployment."
         },
         {
-          "question": "How would you approach building a data analytics dashboard?",
-          "answer": "Based on my Scholarship Monitoring System experience, I would: (1) Identify key metrics to track, (2) Design clear visualizations, (3) Structure the database for efficient queries, (4) Create responsive UI for different devices, (5) Implement real-time updates where needed, and (6) Test with actual users for usability."
+          "question": "How would you approach building a machine learning solution?",
+          "answer": "Based on my AI projects, I would: (1) Define clear business objectives, (2) Collect and preprocess relevant data, (3) Perform feature engineering and selection, (4) Train multiple models and compare performance, (5) Implement hyperparameter optimization, (6) Evaluate with proper metrics and cross-validation, and (7) Deploy with monitoring for model performance."
         },
         {
-          "question": "Describe your experience with databases and data management",
-          "answer": "I have practical experience designing databases for both Student-Management-System and Scholarship Monitoring System. I understand how to structure relational data, create efficient queries, and ensure data integrity. I'm familiar with normalizing databases and optimizing performance for reporting and analytics."
+          "question": "Describe your experience with data preprocessing and feature engineering",
+          "answer": "I have practical experience in data pipelines for ML projects. I understand how to handle missing values, normalize features, encode categorical variables, and perform feature scaling. I'm experienced with handling imbalanced datasets, creating meaningful features from raw data, and optimizing data pipelines for model training efficiency."
         }
       ],
       "situational": [
         {
-          "question": "A critical bug is affecting the Student-Management-System. Walk me through your response",
-          "answer": "I would: (1) Immediately assess the impact and severity, (2) Reproduce the issue in a safe environment, (3) Trace the code to find the root cause, (4) Implement a quick fix or workaround, (5) Test thoroughly, (6) Deploy the fix, (7) Monitor for recurring issues, and (8) Document the solution for future reference."
+          "question": "A trained model is underperforming in production. Walk me through your response",
+          "answer": "I would: (1) Immediately assess the impact and severity of the performance drop, (2) Analyze model predictions on test data, (3) Check for data distribution shift or data quality issues, (4) Review preprocessing and feature engineering steps, (5) Retrain with updated data if needed, (6) Compare with alternative models, (7) Deploy the improved model, (8) Monitor performance metrics, and (9) Document the issues and solutions."
         },
         {
-          "question": "How would you approach a project where requirements keep changing?",
-          "answer": "I would use iterative development with regular stakeholder check-ins. I'd break down requirements into smaller deliverables, prioritize based on business value, and maintain clear documentation. For the Scholarship Monitoring System, changing requirements led me to build flexible features that could adapt without major rewrites."
+          "question": "How would you approach a project where model requirements keep changing?",
+          "answer": "I would use agile methodology with regular stakeholder check-ins. I'd break down the project into sprints, prioritize by impact and business value, and maintain flexible model pipelines. For my AI projects, changing requirements led me to build modular architectures that could adapt models and reuse components without major rewrites."
         },
         {
-          "question": "Describe how you would evaluate and implement a new design tool or technology",
-          "answer": "I would: (1) Research the tool thoroughly and compare alternatives, (2) Consider the learning curve and team capability, (3) Prototype with a small project, (4) Measure efficiency gains, (5) Create documentation and training, and (6) Plan rollout strategy. For design tools like Figma, I would pilot it on small projects first."
+          "question": "Describe how you would evaluate and implement a new ML framework or technology",
+          "answer": "I would: (1) Research the framework thoroughly and compare with alternatives, (2) Consider the learning curve and team expertise, (3) Prototype with a small POC project, (4) Measure performance improvements and ease of use, (5) Create documentation and training materials, and (6) Plan rollout strategy. For frameworks like JAX or newer models, I would pilot with non-critical projects first."
         }
       ],
       "company_research": {
@@ -293,24 +299,20 @@
     },
     "weakness_mitigation": [
       {
-        "weakness": "Limited backend/server-side development experience",
-        "mitigation": "While my primary focus has been frontend and database design, I'm actively learning backend technologies. Currently exploring Python and APIs to expand my full-stack capabilities."
+        "weakness": "Limited production ML deployment experience",
+        "mitigation": "While my primary focus has been model development and research, I'm actively learning MLOps and deployment technologies. Currently exploring Docker, FastAPI, and cloud platforms to expand my full-stack ML capabilities."
       },
       {
-        "weakness": "Early career stage with primarily student projects",
-        "mitigation": "I'm passionate about continuous learning and have already built 2 significant systems (Student-Management-System and Scholarship Monitoring System). I'm eager to contribute to professional projects and grow alongside experienced mentors."
-      },
-      {
-        "weakness": "Limited video editing experience",
-        "mitigation": "While I have beginner-level video editing skills, I'm continuously improving through practice and online courses. I'm comfortable with basic editing tasks and willing to learn more advanced techniques as needed."
+        "weakness": "Limited experience with advanced NLP architectures",
+        "mitigation": "While I have solid foundations in NLP, I'm actively deepening my expertise in transformers and large language models. Currently studying BERT, GPT architectures, and fine-tuning techniques for production systems."
       }
     ],
     "strengths_to_emphasize": [
-      "Strong web design and HTML/CSS expertise with certifications",
-      "Creative problem-solving in building Student-Management-System and Scholarship Monitoring System",
-      "Database design and data analytics understanding",
-      "Quick learner - able to pick up new technologies as needed",
-      "Passionate about user experience and interface design"
+      "Strong machine learning and deep learning expertise with AI-900 certification",
+      "Creative problem-solving in building intelligent AI systems",
+      "Advanced data preprocessing and feature engineering skills",
+      "Quick learner - able to pick up new ML frameworks and techniques",
+      "Passionate about solving complex problems using AI and machine learning"
     ]
   }
 }

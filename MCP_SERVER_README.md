@@ -1,6 +1,6 @@
 # Digital Twin MCP Server
 
-A Model Context Protocol (MCP) server that provides Claude with access to a digital twin assistant. This server allows Claude to ask questions about Jhon Danver's professional profile, skills, projects, and experience using RAG (Retrieval-Augmented Generation).
+A Model Context Protocol (MCP) server that provides Claude with access to a digital twin assistant. This server allows Claude to ask questions about Jan Alcaide's professional profile, skills, projects, and experience using RAG (Retrieval-Augmented Generation).
 
 ## Features
 
@@ -63,9 +63,9 @@ Access the MCP API at `http://localhost:3000/api/mcp`
 Use the built-in server action for programmatic access:
 
 ```typescript
-import { searchDigitalTwin } from '@/app/actions/digital-twin'
+import { searchDigitalTwin } from "@/app/actions/digital-twin";
 
-const result = await searchDigitalTwin('What are your skills?')
+const result = await searchDigitalTwin("What are your skills?");
 ```
 
 ## Claude Desktop Integration
@@ -73,6 +73,7 @@ const result = await searchDigitalTwin('What are your skills?')
 To use this MCP server with Claude Desktop:
 
 1. Locate your Claude Desktop config file:
+
    - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
    - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 
@@ -102,9 +103,10 @@ To use this MCP server with Claude Desktop:
 
 ### `ask_digital_twin`
 
-Ask questions about Jhon Danver's professional profile.
+Ask questions about Jan Alcaide's professional profile.
 
 **Parameters:**
+
 - `question` (string): Your question about background, skills, or experience
 
 **Response:** AI-generated answer with source attribution
@@ -172,13 +174,13 @@ Profile data is stored in `digitaltwin.json`:
     }
   ],
   "personal": {
-    "name": "Jhon Danver C. Abogado",
-    "title": "Certified HTML and CSS Developer",
+    "name": "Jan Alcaide",
+    "title": "Certified MCF AI-900",
     "location": "Cagayan, Philippines",
     "contact": {
-      "email": "jhonabogado@spup.edu.ph",
-      "linkedin": "https://www.linkedin.com/in/jhon-danver-abogado-abb196396/",
-      "github": "https://github.com/jedeee-ei"
+      "email": "janalcaide@spup.edu.ph",
+      "linkedin": "https://www.linkedin.com/in/jan-cornelius-miguel-alcaide-619a07393/",
+      "github": "https://github.com/janalcaide-ops"
     }
   }
 }
@@ -194,9 +196,9 @@ Edit `lib/mcp-server.ts`:
 
 ```typescript
 const message = await groq.chat.completions.create({
-  model: 'your-preferred-model',
+  model: "your-preferred-model",
   // ...
-})
+});
 ```
 
 ### Response Settings
@@ -268,4 +270,4 @@ MIT
 
 ## Repository
 
-https://github.com/jedeee-ei/Digital-twin
+https://github.com/janalcaide-ops/Digital-twin

@@ -73,7 +73,7 @@ export default function DigitalTwinChat() {
             <div className="text-center px-4">
               <div className="mb-3 text-4xl">💬</div>
               <h2 className="mb-2 text-xl font-bold text-white">
-                Welcome to Your Digital Twin
+                Welcome 
               </h2>
               <p className="text-sm text-slate-400">
                 Ask me anything about my professional profile

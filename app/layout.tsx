@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jhon Danver | Portfolio",
-  description: "Portfolio of Jhon Danver - Web Designer, Graphic Designer, and Digital Innovation Specialist",
+  title: "Jan Alcaide | Portfolio",
+  description: "Portfolio of Jan Alcaide - AI Developer and Game Developer",
 };
 
 export default function RootLayout({
